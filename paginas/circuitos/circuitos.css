@@ -1,0 +1,50 @@
+/* Estilos para las 3 paginas de circuitos */
+div.izquierda {
+    width: 33.3%;
+}
+div.centro {
+    width: 33.3%;
+}
+div.derecha {
+    width: 33.4%;
+}
+div.arriba {
+    height: 40%;
+}
+div.abajo {
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Imagen dentro de div.abajo */
+div.abajo img {
+    width: 100%;
+}
+
+/* Tabla de Misano */
+table.eventos {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+table.eventos th, table.eventos td, table.eventos tr{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table.eventos th {
+    text-align: center;
+}
+table.eventos td {
+    padding: 10px;
+}
+
+/* Tabla de Kyalami y Zandvoort */
+table.vueltas {
+    width: 100%;
+    margin-bottom: 30px;
+}
+table.vueltas td, th {
+    text-align: left;
+    padding: 5px;
+}

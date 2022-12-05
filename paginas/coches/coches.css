@@ -1,0 +1,9 @@
+div.izquierda {
+    width: 40%;
+}
+div.derecha {
+    width: 60%;
+}
+div.derecha img {
+    width: 100%;
+}

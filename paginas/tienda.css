@@ -1,0 +1,23 @@
+div.cuerpo {
+    display: flex;
+    flex-direction: column;
+}
+div.tienda {
+    width: 100%;
+    display: flex;
+    padding: 0 20% 0 5%;
+}
+    div.izquierda {
+        width: 40%;
+    }
+        div.tienda h2 {
+            text-align: left;
+        }
+    div.derecha {
+        width: 60%;
+    }
+        iframe.tienda {
+            width: 100%;
+            height: 190px;
+            border: none;
+        }
